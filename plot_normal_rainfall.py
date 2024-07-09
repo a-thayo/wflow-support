@@ -1,5 +1,3 @@
-# normal rainfall refers to the year with the closest rainfall to average
-
 normal = pd.read_excel(r"PATH TO RAINFALL DATA", index_col=[0], usecols=[0,1,2], parse_dates=[0], date_format="%Y-%m-%d %H:%M:%S")
 normalxr = normal.to_xarray()
 avg_yr = normalxr["DATAARRAY NAME"].resample(indexer={"Time": "1YE"}).sum()
