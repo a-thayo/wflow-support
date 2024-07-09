@@ -23,5 +23,5 @@ for sheet_name, df in sheet_dict.items():
           df = pd.concat([df, df1])
   ext = ext.set_index(['time', 'lat', 'lon'])
   exr = ext.to_xarray()
-	output = r"PATH TO OUTPUT/{sheet_name}.ncdf"
+	output = rf"PATH TO OUTPUT/{sheet_name}.ncdf"
   ext_nc = exr.to_netcdf(output)
