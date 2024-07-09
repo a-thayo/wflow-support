@@ -4,4 +4,4 @@ i know they are very easy to use already but sometimes there are niche tasks tha
 * estimating low flow of a catchment
 * plotting multiple years of rainfall to find out which one is the closest to average
 * etc.\
-please feel free to take a look
+\please feel free to take a look
