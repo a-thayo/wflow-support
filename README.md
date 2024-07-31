@@ -5,4 +5,5 @@ i know they are very easy to use already but sometimes there are niche tasks tha
 * plotting multiple years of rainfall to find out which one is the closest to average
 * adding time dimension to your netcdf files
 * extracting output from netcdf and resampling
+\
 etc.
